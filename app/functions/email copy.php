@@ -8,7 +8,7 @@ function send(array $data){
     $email->SMTPSecure = "plain"; //ssl;
     $email->isSMTP();
     $email->Host = "*";
-    $email->Port = 465;
+    $email->Port = "";
     $email->SMTPAuth = true;
     $email->Username = "*";
     $email->Password = "*";
